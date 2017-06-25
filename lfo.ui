@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>335</width>
+    <height>260</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDial" name="lfoFreq">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>50</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>1024</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Freq</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>111</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Frequency Selection</string>
+   </property>
+   <widget class="QRadioButton" name="lfo32">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>32 Step</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfo16">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>16 step</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfo8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>8 Step</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfo6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>6 Step</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfo4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4 Step</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfo3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3 Step</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfo2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2 Step</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfo1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1.5 Step</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfo0">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Freq</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QDial" name="lfoAmt">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>50</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>1024</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Amt</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="lfoModDest">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1+2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc Mix</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Noise Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 2 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1+2 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Resonance</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Audio Mod</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>VCA Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO 1 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO3 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO4 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All LFO Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO1 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO2 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO4 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All LFO Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amp Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env 3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Attak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Attack</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Attack</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Attacks</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Decays</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Releases</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod1 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod2 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod4 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ext Audio In Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sub Osc1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sub Osc 2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Skew 1/2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mod Dest</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="lfoKeySync">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Key Sync</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>121</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>LFO Waveform</string>
+   </property>
+   <widget class="QRadioButton" name="lfoTri">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Triangle</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfoRevSaw">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reverse Saw</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfoSaw">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sawtooth</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfoPulse">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pulse(Square)</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lfoRandom">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Random</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>920</width>
+    <height>857</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>911</width>
+      <height>821</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>920</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuSequencer">
+    <property name="title">
+     <string>Create</string>
+    </property>
+    <addaction name="actionSeq16"/>
+    <addaction name="actionSeq16x8"/>
+    <addaction name="actionProSeq16x8"/>
+    <addaction name="actionSeq42_6"/>
+    <addaction name="actionSeqMatrix_2"/>
+    <addaction name="actionSeqMatrix"/>
+    <addaction name="actionMophoLab"/>
+    <addaction name="actionMidiLoop16"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuMIDI">
+    <property name="title">
+     <string>MIDI</string>
+    </property>
+    <addaction name="actionOptions"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuSequencer"/>
+   <addaction name="menuMIDI"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSeq16">
+   <property name="text">
+    <string>Seq16</string>
+   </property>
+  </action>
+  <action name="actionSeq16x8">
+   <property name="text">
+    <string>Seq16x8</string>
+   </property>
+  </action>
+  <action name="actionProSeq16x8">
+   <property name="text">
+    <string>ProSeq16x8</string>
+   </property>
+  </action>
+  <action name="actionSeqMatrix">
+   <property name="text">
+    <string>StepMatrix64</string>
+   </property>
+  </action>
+  <action name="actionMophoLab">
+   <property name="text">
+    <string>MophoLab</string>
+   </property>
+  </action>
+  <action name="actionMidiLoop16">
+   <property name="text">
+    <string>MidiLooper16</string>
+   </property>
+  </action>
+  <action name="actionOptions">
+   <property name="text">
+    <string>Options</string>
+   </property>
+  </action>
+  <action name="actionSeqMatrix_2">
+   <property name="text">
+    <string>SeqMatrix</string>
+   </property>
+  </action>
+  <action name="actionSeq42_6">
+   <property name="text">
+    <string>Seq42+6</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

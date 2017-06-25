@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>362</width>
+    <height>175</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="modDest">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>100</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1+2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc Mix</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Noise Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 2 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1+2 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Resonance</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Audio Mod</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>VCA Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO 1 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO3 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO4 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All LFO Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO1 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO2 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO4 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All LFO Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amp Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env 3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Attak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Attack</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Attack</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Attacks</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Decays</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Releases</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod1 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod2 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod4 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ext Audio In Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sub Osc1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sub Osc 2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Skew 1/2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mod Dest</string>
+   </property>
+  </widget>
+  <widget class="QDial" name="modAmt">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>50</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>1024</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Amt</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="modSrc">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sequence Track 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sequence Track 2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sequence Track 3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sequence Track 4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO 2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO 3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO 4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Envelope</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amp Envelope</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Envelope 3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pitch Bend</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod Wheel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pressure</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Breath</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Foot</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Expression</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Velocity</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Note Number</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Noise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Audio In Envelope Follower</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Audio in Peak</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mod Src</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
