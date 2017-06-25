@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mod Dest</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="env3ModDest">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1+2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc Mix</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Noise Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 2 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Osc 1+2 PW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Resonance</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Audio Mod</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>VCA Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO 1 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO2 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO3 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO4 Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All LFO Freq</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO1 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO2 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LFO4 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All LFO Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Filter Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amp Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env 3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Attak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Attack</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Attack</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Attacks</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Decay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Decays</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env1 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env2 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Env3 Release</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Env Releases</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod1 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod2 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod3 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mod4 Amt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ext Audio In Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sub Osc1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sub Osc 2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Skew 1/2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="env3Repeat">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>70</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Repeat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>270</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DLY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>270</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>D</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>270</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Env Amt</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>R</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>270</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>S</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>191</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QSlider" name="env3EnvAmt">
+      <property name="maximum">
+       <number>1024</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="env3Delay">
+      <property name="maximum">
+       <number>1024</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="env3Attack">
+      <property name="maximum">
+       <number>1024</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="env3Decay">
+      <property name="maximum">
+       <number>1024</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="env3Sustain">
+      <property name="maximum">
+       <number>1024</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="env3Release">
+      <property name="maximum">
+       <number>1024</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
